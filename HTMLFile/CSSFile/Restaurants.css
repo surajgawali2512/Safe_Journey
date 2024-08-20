@@ -1,0 +1,14 @@
+.restaurants{
+margin: 150px 100px 0px 100px;
+}
+.img-restaurants-main{
+    display: flex;
+ 
+}
+.img-restaurants{
+height: 300px;
+width: 300px;
+border-radius: 6px;
+margin: 5px;
+
+}

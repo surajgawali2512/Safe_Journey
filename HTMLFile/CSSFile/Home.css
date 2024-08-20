@@ -1,0 +1,270 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.div-navbar {
+ position: fixed;
+  width: 100%;
+  top: 0;
+  
+}
+
+.navbartitle {
+  display: flex;
+  background-color: rgb(49, 13, 121);
+  margin: 0;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.div-heading img {
+  height: 50px;
+  width: 90px;
+}
+
+#titlelogo {
+  display: flex;
+  align-items: center; }
+
+#imglogo {
+  margin: 0 10px 0 0; 
+}
+
+#title {
+  font-family: cursive;
+  color: white;
+}
+
+.navbarlist {
+  margin-left: auto; 
+  display: flex;
+  align-items: center;
+}
+
+.navbarlist ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbarlist ul li a {
+  margin-right: 50px;
+  text-decoration: none;
+  color: white; 
+  font-weight: 500;
+}
+.navbarlist ul li a:hover{
+  text-decoration: underline;
+}
+
+.navbar-2 {
+  background-color:  rgb(49, 13, 121);
+  padding: 10px 20px; 
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-2 ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-2 ul a {
+  text-decoration: none;
+  margin-right: 55px;
+  color:white;
+  font-weight: 500;
+}
+.navbar-2 ul a:hover{
+ text-decoration: underline;
+}
+
+.display{
+ margin-top: 0%;
+ width: 100%;
+ height: 350px;
+  margin-top: 129px; 
+  justify-content: center;
+  align-items: center;
+  background-image:url("../Images/background-img1.jpeg");
+ 
+
+}
+.display h1{
+  color: white;
+  padding:50px 0px 0px 230px;
+  font-family:'Times New Roman', Times, serif;
+
+}
+.display #h12{
+  color: white;
+  padding:5px 0px 0px 230px;
+  font-family:'Times New Roman', Times, serif;
+}
+.display h2{
+  padding:5px 0px 0px 230px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: medium;
+
+}
+.book-now{
+  color: black;
+  margin:5px 0px 0px 230px  ;
+  padding:5px 20px 5px 20x;
+  background-color: rgb(34, 34, 218);
+  border-radius: 3px;
+  border: 2px;
+  height: 30px;
+  width: 150px;
+  font-weight: 800;
+
+}
+
+
+.content-text {
+  margin-top: 50px;
+  padding: 0 200px; 
+  text-align: center;
+}
+
+.content-text h1 {
+  color: rgb(157, 101, 16);
+  font-weight: bold;
+  margin: 10px 0; 
+}
+/*********************************************/
+.trending-destination{
+  margin-left: 175px;
+}
+.heading-trending-destination{
+
+}
+.img-trending-destination-1{
+  display: flex;
+}
+.img-trending-destination-2{
+  display: flex;
+}
+.img-trending-destination-1 img{
+ 
+  height: 350px;
+  width: 550px;
+  border-radius: 6px;
+  margin: 4px;
+}
+#img-new-delhi:hover .info-new-delhi{
+  display: initial;
+}
+#img-banglore:hover .info-banglore{
+  display: initial;
+}
+
+ .info-new-delhi,.info-banglore{
+  display: none;
+  height:350px ;
+  width: 400px;
+}
+
+.img-trending-destination-2 img{
+
+  height: 300px;
+  width: 368px;
+  border-radius: 6px;
+  margin: 4px;
+}
+.img-trending-destination-div:hover .img-trending-destination{
+
+  height: 310px;
+  width: 378px;
+  border-radius: 6px;
+  margin: 4px;
+}
+/*********************************************/
+.explore-india{
+margin-left: 175px;
+}
+.img-explore-india-main{
+display: flex;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.img-explore-india-main h6{
+  margin-top: 0%;
+  color: gray;
+  }
+  .img-explore-india h3{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    color: black
+    }
+.img-explore-india-main img{
+height: 150px;
+width: 152px;
+border-radius: 5px;
+margin: 5px;
+}
+.img-explore-india-div:hover .img-explore-india{
+  height: 155px;
+  width: 157px;
+  border-radius: 5px;
+  margin: 5px;
+  }
+.Browse-available-hotels{
+  margin-left: 175px;
+}
+.head-available-hotels{
+
+}
+
+.img-available-hotels{
+display: flex;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.img-available-hotels img{
+  height: 275px;
+width: 275px;
+border-radius: 5px;
+margin: 5px;
+}
+.book-rental{
+  margin-left: 175px;
+}
+.head-book-rental{
+
+}
+.img-book-rental{
+display: flex;
+
+}
+.img-book-rental img{
+  height: 200px;
+width: 275px;
+border-radius: 7px 7px 0px 0px;
+margin: 5px  5px 0px  5px ;
+}
+.img-details-book-rental h3{
+margin-top: 0%;
+}
+
+.img-details-book-rental{
+ 
+  background-color: rgba(241, 241, 241, 0.835);
+  border-radius: 0px 0px 7px 7px;
+  margin: 0px  5px  5px  5px ;
+}
+.img-details-book-rental-rating{
+margin: 3px;
+}
+.img-details-book-rental-rent{
+  display: flex;
+  margin-left: 50px;
+  margin-top:4px;
+  display: flex;
+}
+
+
+

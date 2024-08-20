@@ -1,0 +1,76 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+  }
+  .div-heading{
+
+  }
+
+  .heading{
+    background-color: rgb(208, 179, 141,0.5);
+    height: 60px;
+    margin: 0;
+    font-size:45px ;
+    margin-top: 0;
+    padding-top: 0%;
+    padding-left: 440px;
+     color: rgb(84, 84, 135);
+  }
+  .navbar{
+      padding-top: 0%;
+      height: 45px;
+      background-color: rgba(151, 149, 149, 0.8);
+      color: white;
+      text-align: center;
+       padding: 10px; 
+       color: rgb(31, 31, 171);
+      
+      
+  }
+  .navbar ul{
+    list-style-type: none;
+    display: flex;
+    padding-right: 10px;
+  }
+  .navbar ul li a{
+    margin-right: 50px;
+  }
+  /************************            */
+  #login{
+    height: 450px;
+    width: 300px;
+    padding: 20px;
+    margin-left: 330px;
+    margin-top: 50px;
+    border: solid 5px rgb(109, 36, 243,0.2);
+}
+#loginimage{
+    margin-top: 50px;
+    height: 500px;
+    width: 500px;
+}
+#inputbox{
+    padding-top: 0%;
+    margin-top: 0%;
+    margin-left:40px ;
+    height:25px ;
+    width: 200px;
+     border-radius: 4px;
+     font-size: 12px;
+}
+#loginbutton{
+    height: 25px; 
+    width: 200px;
+     background-color: rgb(109, 36, 243,0.9);
+     margin-left: 40px;
+     border-radius: 4px;
+}
+#signwithgoogle{
+font-size: 10px;
+width: 200px;
+height: 20px;
+margin-left: 40px;
+}
+.login-main{
+  background-image: url("./Images/login-background.jpeg");
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeJourney</title>
+    <link rel="icon" href="./Images/webpage-icon.jpeg">
+    
+    <style>
+ #navbar{
+            padding-top: 0%;
+            height: 45px;
+            background-color: rgba(151, 149, 149, 0.8);
+            color: white;
+            text-align: center;
+             padding: 10px; 
+             color: rgb(31, 31, 171);
+            
+            
+        }
+        #navlist{
+            margin-right: 50px;
+        }
+        #login{
+            height: 450px;
+            width: 300px;
+            padding: 20px;
+            margin-left: 330px;
+            margin-top: 50px;
+            border: solid 5px rgb(109, 36, 243,0.2);
+        }
+        #loginimage{
+            margin-top: 50px;
+            height: 500px;
+            width: 500px;
+        }
+        #inputbox{
+            padding-top: 0%;
+            margin-top: 0%;
+            margin-left:40px ;
+            height:25px ;
+            width: 200px;
+             border-radius: 4px;
+             font-size: 12px;
+        }
+       #loginbutton{
+            height: 25px; 
+            width: 200px;
+             background-color: rgb(109, 36, 243,0.9);
+             margin-left: 40px;
+             border-radius: 4px;
+        }
+        #signwithgoogle{
+font-size: 10px;
+width: 200px;
+height: 20px;
+margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <ul style="list-style-type: none;display: flex;padding-right: 10px;">
+            <li id="navlist"><a href="HOME.html">HOME</a></li>
+            <li id="navlist"><a href="LoginRegister.html">Login/Register</a></li>
+            <li id="navlist"><a href="CarList.html">Car_List</a></li>
+            <li id="navlist"><a href="ContactUs.html">ContactUs</a></li>
+        </ul>
+      </div>  
+      <div style="display: flex;"> 
+        <div id="login">
+        <h1 style="margin-left: 40px;color: brown;"> Welcome..!</h1>
+        <h3 style="margin-left: 40px;">Email</h3>
+        <input type="text" placeholder="Enter Your Email Address" id="inputbox" >
+        <h3 style="margin-left: 40px";> Password</h3>
+        
+        
+        <input type="text" placeholder="Enter Your Password"id="inputbox" style="height: 25px;width: 200px;border-radius: 4px;">
+        <p style="color:rgb(109, 36, 243,0.9) ; font-size: 10; padding-left: 145px;">forgot your password..?</p>
+        <button id="loginbutton" >Sign in</button>
+        <p style="margin-left: 30px;margin-top: 20px;">________OR Sign With_________</p>
+        <button id="signwithgoogle">Sign-up With Google </button>
+        <p style="font-size: 15px;margin-left: 30px;margin-top: 20px;">Do you have an account ?<a href="Login.html">Login now</a></p>
+        </div>
+        <div id="loginimage">
+        <img src="loginpageimage.jpg" alt="img" height="500px" width="500px">
+        </div>
+              </div>
+</body>
+</html>

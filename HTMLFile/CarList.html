@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeJourney</title>
+    <link rel="icon" href="./Images/webpage-icon.jpeg">
+    
+    <style> body{
+        box-sizing: border-box;
+        margin: 0;
+      }
+     #navbar{
+        margin-top: 0%;
+        height: 45px;
+        background-color: rgba(151, 149, 149, 0.8);
+        color: white;
+        text-align: center;
+        padding: 10px;
+        
+        
+    }
+    #navlist{
+            margin-right: 50px;
+        }
+        #carlist{padding-top: 0%;
+            margin-top: 0%;
+           
+            
+            /* background-image: url("carlistbackground.jpeg"); */
+
+        
+            
+      
+       }
+       #selectbutton{
+         margin-right: 40px;
+         width: 200px;
+         border-radius: 3px;
+         margin-left: 50px;
+
+       }
+       #buttondiv{
+        height: 200px;
+
+       }
+       #car{
+        height: 200px;
+       }
+       #carimage{
+        height: 300px;
+        border-radius: 4px;
+        padding-left: 100px;
+       }
+       #carinfo{
+        display: flex;
+       }
+       #info{
+        padding-left: 100px;
+        color: rgb(106, 102, 102);
+       }
+       #heading{
+        padding-left: 40px;
+       }
+        </style>
+</head>
+<body style="background-color: antiquewhite;">
+    <div id="navbar">
+        <ul style="list-style-type: none;display: flex;padding-right: 10px;">
+            <li id="navlist"><a href="HOME.html">HOME</a></li>
+            <li id="navlist"><a href="Login.html">Login/Register</a></li>
+            <li id="navlist"><a href="CarList.html">Car_List</a></li>
+            <li id="navlist"><a href="ContactUs.html">ContactUs</a></li>
+        </ul>
+      </div>  
+      <div id="carlist">
+         <h2 id="heading">Find your car</h2>
+       
+           </div>
+           <div id="buttondiv">
+           
+                <button id="selectbutton">Select Brand
+                    <!-- <ol>
+                        <li>Honda</li>
+                        <li>Toyota</li>
+                        <li>Maruti Suzuki</li>
+                        <li>Mahindra</li>
+                    </ol> -->
+                </button>
+                <button id="selectbutton">select carname
+                    <select >
+                    
+                        <option >i20</option>
+                        <option >i20</option>
+                        <option >i20</option>
+                        <option >i20</option>
+                    </select>
+                    <!-- <ol>
+                        <li>i20</li>
+                        <li>Creta</li>
+                        <li>Verna</li>
+                        <li>Innova</li>
+                        <li>Alto</li>
+                        <li>Swift</li>
+                        <li>Baleno</li>
+                        <li>Ertiga</li>
+                        <li>Scarpio</li>
+                        <li>bolero</li>
+                    </ol> -->
+                </button>
+                <button id="selectbutton">Select sits
+                    <!-- <ol>
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
+                        <li>7</li>
+                        <li>8</li>
+                        <li>9</li>
+                    </ol> -->
+                </button>
+
+           </div>
+           <div id="carinfo" >
+            <div id="car">
+             <img src="./Images/Innova1.jpeg" alt="Innova-Crysta " id="carimage">
+            </div>
+            <div id="info">
+                 <h2>Car name : Innova-Crysta</h2>
+                 <h2> Rent rate : 2000 per day</h2>
+                 <h2>Sits : 8</h2>
+                 <h2>Fuel : disel</h2>
+            </div>
+           </div>
+          
+</body>
+</html>
